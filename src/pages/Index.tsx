@@ -27,7 +27,7 @@ const services = [
   {
     icon: Code,
     title: 'Software Development',
-    description: 'Custom software solutions including ERP systems, POS software, and enterprise applications.',
+    description: 'Custom software solutions including ERP systems, POS software, enterprise applications, and cloud computing services.',
     image: softwareImage,
     features: ['Custom ERP', 'POS Systems', 'Mobile Apps', 'Cloud Solutions'],
   },

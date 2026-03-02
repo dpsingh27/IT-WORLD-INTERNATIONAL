@@ -8,6 +8,7 @@ const services = [
   'Solar Energy Solutions',
   'Software Development',
   'Web Design',
+  'Cloud Computing Services',
   'Business Consulting',
   'Digital Marketing',
 ];

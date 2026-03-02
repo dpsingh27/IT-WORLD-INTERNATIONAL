@@ -1,11 +1,12 @@
 import { Link } from 'react-router-dom';
-import { ArrowRight, Shield, Sun, Code, Monitor, Users, TrendingUp, Printer, Wrench, CheckCircle2, Phone } from 'lucide-react';
+import { ArrowRight, Shield, Sun, Code, Monitor, Users, TrendingUp, Printer, Wrench, CheckCircle2, Phone, Cloud } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import cctvImage from '@/assets/cctv-service.jpg';
 import solarImage from '@/assets/solar-service.jpg';
 import softwareImage from '@/assets/software-dev.jpg';
 import webImage from '@/assets/web-design.jpg';
+import cloudImage from '@/assets/cloud-service.svg';
 
 const services = [
   {
@@ -61,6 +62,24 @@ const services = [
       'Mobile App Development',
     ],
     benefits: 'Streamline your operations with software designed specifically for your industry. Our SmartVerse suite offers ready-to-use solutions for various sectors.',
+  },
+  {
+    id: 'cloud',
+    icon: Cloud,
+    title: 'Cloud Computing & Services',
+    description: 'Scalable, secure cloud solutions to power your business operations and digital transformation.',
+    image: cloudImage,
+    features: [
+      'Cloud Infrastructure Setup (AWS/Azure/GCP)',
+      'Cloud Migration & Deployment',
+      'Managed Cloud Services',
+      'IaC & Automation',
+      'Backup & Disaster Recovery',
+      'Security & Compliance',
+      'Serverless Architecture',
+      'Cost Optimization',
+    ],
+    benefits: 'Leverage the power of the cloud to increase agility, reduce costs, and improve reliability. Our experts manage and optimize your cloud environment so you can focus on growth.',
   },
   {
     id: 'web',
