@@ -90,6 +90,11 @@ Managing state and data flow
 
 Writing clean and maintainable code
 
+Interface --
+
+<img width="1639" height="1000" alt="image" src="https://github.com/user-attachments/assets/1a1ffb0c-59c9-4407-8eb9-b74f7814fc1a" />
+
+
 📌 Future Improvements
 
 Authentication & Authorization (JWT)
