@@ -1,73 +1,108 @@
-# Welcome to your Lovable project
+🌍 IT World International
 
-## Project info
+A modern full-stack web application built using the MERN stack with TypeScript for type safety and scalability.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+🚀 Tech Stack
 
-## How can I edit this code?
+This project is developed using:
 
-There are several ways of editing your application.
+MongoDB – NoSQL database for storing application data
 
-**Use Lovable**
+Express.js – Backend web framework for Node.js
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+React.js – Frontend library for building interactive user interfaces
 
-Changes made via Lovable will be committed automatically to this repo.
+Node.js – Runtime environment for server-side development
 
-**Use your preferred IDE**
+TypeScript – Strongly typed superset of JavaScript for better maintainability and developer experience
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+📌 Project Overview
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+IT World International is a responsive and scalable web application designed to provide modern digital solutions. The platform demonstrates full-stack development practices, clean architecture, and type-safe coding using TypeScript across both frontend and backend.
 
-Follow these steps:
+✨ Features
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Full-stack MERN architecture
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Type-safe development with TypeScript
 
-# Step 3: Install the necessary dependencies.
-npm i
+RESTful API integration
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Responsive UI design
+
+Modular and scalable folder structure
+
+Secure backend configuration
+
+Environment variable management
+
+🏗️ Project Structure
+it-world-international/
+│
+├── client/        # React + TypeScript frontend
+├── server/        # Node.js + Express + TypeScript backend
+├── .env           # Environment variables
+├── package.json
+└── README.md
+⚙️ Installation & Setup
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/it-world-international.git
+cd it-world-international
+2️⃣ Install Dependencies
+
+For backend:
+
+cd server
+npm install
+
+For frontend:
+
+cd client
+npm install
+3️⃣ Run the Application
+
+Backend:
+
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+Frontend:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+npm start
+🔐 Environment Variables
 
-**Use GitHub Codespaces**
+Create a .env file inside the server directory and add:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+📚 Learning Outcomes
 
-## What technologies are used for this project?
+Through this project, I gained hands-on experience in:
 
-This project is built with:
+Building scalable full-stack applications
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Using TypeScript with MERN
 
-## How can I deploy this project?
+Creating REST APIs
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Connecting frontend with backend
 
-## Can I connect a custom domain to my Lovable project?
+Managing state and data flow
 
-Yes, you can!
+Writing clean and maintainable code
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+📌 Future Improvements
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Authentication & Authorization (JWT)
+
+Role-based access control
+
+Deployment (AWS / Vercel / Render)
+
+CI/CD integration
+
+Performance optimization
+
+👨‍💻 Author
+
+Developed by - Divya Pratap Singh
+Full-Stack MERN Developer
